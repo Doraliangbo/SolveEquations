@@ -1,1 +1,3 @@
-# SolveEquations
+In my solution, I used the hashmap as my main data structure. The key value is the left side of the equations, and the value is the right side. And for the value in the hashmap, I used a vector to hold all the variables in right side, and the last element in this vector is the sum of the current num elements. To check if we got all the calculation done, just to check if the vector has only one number item. 
+
+The reason I choose the hashmap is that the time complexity for finding item in hashmap is just O(1) which is very effcient. 
